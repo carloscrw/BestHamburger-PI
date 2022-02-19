@@ -1,59 +1,94 @@
-<%- include('./partials/head')%>
+<!DOCTYPE html>
+<html lang="en">
 
-    <body>
+<head>
 
-        <figure class="imagen-left">
-            <img src="/img/pagina-loginho.jpg" alt="Imagens Lateral">
-        </figure>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Hamburguer</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/cadastro.css">
+
+
+</head>
+
+<body>
+
+    <figure class="imagen-left">
+        <img src="/img/pagina-loginho.jpg" alt="Imagens Lateral">
+    </figure>
+    </div>
+
+    <section class="container">
+        <h1>Inscreva-se</h1>
+        <div class="dados">
+            <div>
+                <form class="formulario" action="/cadastro " method="POST">
+
+                    <div class="dados2">
+
+                        <div class="caixa1">
+                            <label for="nome">Nome</label>
+                            <div>
+                                <input type="text" name="Nome" id="nome" required>
+                            </div>
+                        </div>
+                        <div class="caixa2">
+                            <label for="nome">Sobrenome</label>
+                            <div>
+                                <input type="text" name="Sobrenome" id="Sobrenome" required>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="caixa3">
+                        <label for="email">Email</label>
+                        <input type="email" name="Email" id="email" required>
+                    </div>
+                    <div class="caixa3">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" required>
+                    </div>
+
+
+
+            </div>
+        </div>
+        <button type="submit">criar uma conta</button>
+        <div>
+            <a href="">
+                <h4>já e uma menbro?Conecte-se</h4>
+            </a>
+        </div>
+        </form>
+    </section>
+    <footer>
+        <div class="caixa1-footer">
+            <div class="rodape-text">
+                <p>Copyrigth © 2021 Best Burger </p>
+            </div>
+        </div>
+        <div class="caixa2-footer">
+            <div class="rodape-redes">
+                <a href="">
+                    <img src="/img/icone-whats.png" alt="icone-whats">
+                </a>
+                <a href="">
+                    <img src="/img/icone-facebook.png" alt="icone-facebook">
+                </a>
+                <a href="">
+                    <img src="/img/icone-instagram.png" alt="icone-instagram">
+                </a>
+
+            </div>
         </div>
 
-        <section class="container">
-            <h1>Inscreva-se</h1>
-            <div class="dados">
-                <div>
-                    <form class="formulario" action="/cadastro " method="POST">
-
-                        <div class="dados2">
-
-                            <div class="caixa1">
-                                <label for="nome">Nome</label>
-                                <div>
-                                    <input type="text" name="Nome" id="nome" required>
-                                </div>
-                            </div>
-                            <div class="caixa2">
-                                <label for="nome">Sobrenome</label>
-                                <div>
-                                    <input type="text" name="Sobrenome" id="Sobrenome" required>
-                                </div>
-                            </div>
-
-                        </div>
+    </footer>
 
 
-                        <div class="caixa3">
-                            <label for="email">Email</label>
-                            <input type="email" name="Email" id="email" required>
-                        </div>
-                        <div class="caixa3">
-                            <label for="senha">Senha</label>
-                            <input type="password" name="senha" id="senha" required>
-                        </div>
+</body>
 
-
-
-                </div>
-            </div>
-            <button type="submit">criar uma conta</button>
-            <div>
-                <a href="">
-                    <h4>já e uma menbro?Conecte-se</h4>
-                </a>
-            </div>
-            </form>
-        </section>
-
-
-    </body>
-
-    </html>
+</html>
