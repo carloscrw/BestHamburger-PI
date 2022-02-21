@@ -1,0 +1,27 @@
+a {
+  color: black;
+}
+
+#MenusInterativos {
+  font-size: 5vh;
+  
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 15vh;
+  justify-content: center;
+  
+  /* margin-left: 15vw;
+  margin-top: 15vh; */
+}
+
+#FotoDePerfil {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+}
+

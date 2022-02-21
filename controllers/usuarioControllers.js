@@ -4,6 +4,9 @@ const usuarioController = {
     },
     login: (req, res) => {
         res.render('login')
+    },
+    minhaConta: (req, res) => {
+        res.render('minhaConta')
     }
 }
 
