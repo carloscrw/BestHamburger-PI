@@ -8,6 +8,8 @@ const usuarioController = require('../controllers/usuarioControllers')
 //   res.send('respond with a resource');
 // });                        -- podemos apagar isso? (Moisés)
 
+router.get('/cadastro', usuarioController.cadastro)
+router.get('/login', usuarioController.login)
 router.get('/minhaConta', usuarioController.minhaConta)
 
 module.exports = router;
