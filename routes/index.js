@@ -10,5 +10,6 @@ router.get('/', function(req, res, next) {
 
 router.get('/cadastro', usuarioController.cadastro)
 router.get('/login', usuarioController.login)
+router.get('/cardapio', usuarioController.cardapio)
 
 module.exports = router;

@@ -4,6 +4,9 @@ const usuarioController = {
     },
     login: (req, res) => {
         res.render('login')
+    },
+    cardapio: (req, res) => {
+        res.render('cardapio')
     }
 }
 
