@@ -1,0 +1,243 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        body,
+        html {
+            height: 100%;
+            font-family: 'Poppins-Regular', sans-serif;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        a,
+        p {
+            margin: 0px;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        input:focus {
+            box-shadow: 0 0 0 0;
+            outline: 0;
+        }
+        
+        .container-login100 {
+            background: url('/img/fundo-login.png');
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .limiter {
+            width: 100vw;
+            display: flex;
+            padding: 10px 150px 50px;
+        }
+        
+        .limiter2 {
+            width: 40%;
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+        }
+        
+        .login100 {
+            width: 80%;
+        }
+        
+        .login100-more {
+            width: 60%;
+            height: 80vh;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        
+        .login10 {
+            width: 100%;
+            height: 15vh;
+            display: flex;
+            align-items: center;
+        }
+        
+        .bnt-login {
+            width: 100%;
+            height: 5vh;
+            max-width: 140px;
+            max-height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #40CC6F;
+            box-sizing: border-box;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+            border-radius: 36px;
+        }
+        
+        .bnt-login a {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            /* identical to box height */
+            text-align: center;
+            color: #FFFFFF;
+        }
+        
+        .bnt-reg {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .bnt-reg a {
+            color: black;
+        }
+        
+        .login-texto {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .login-texto h1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 42px;
+            color: #000000;
+        }
+        
+        .login-texto p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            color: #545454;
+        }
+        
+        .input-limit {
+            width: 100%;
+            height: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .login-input {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .input-form {
+            height: 40px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid #AAAAAA;
+        }
+        
+        .input-texto {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            /* identical to box height */
+            color: #AAAAAA;
+        }
+        
+        .container-login100-form-btn {
+            width: 100%;
+            height: 12%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .bnt-envia button {
+            width: 90%;
+            height: 80%;
+            border: 0;
+            background: #40CC6F;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 14px;
+            /* identical to box height */
+            text-align: center;
+            color: #FFFFFF;
+        }
+        
+        .txt2 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            text-decoration-line: underline;
+            color: #545454;
+        }
+        
+        .caixa-google {
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .google-bnt {
+            width: 75%;
+            min-height: 40px;
+            display: flex;
+            align-items: center;
+            background-color: rgba(177, 170, 170, 0.25);
+            border-radius: 20px;
+            justify-content: center;
+        }
+        
+        .google-bnt a {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            /* identical to box height */
+            color: #545454;
+        }
+        
+        .google img {
+            width: 25px;
+            margin: 10px;
+        }
+        
+        .google {
+            width: 50%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .caixa-google p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            color: #8E8E8E;
+            padding: 10px;
+        }
