@@ -16,5 +16,4 @@ router.get('/minhaConta', usuarioController.minhaConta)
 
 router.get('/cardapio', servicosController.cardapio)
 
-
 module.exports = router;
