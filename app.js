@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var servicosRouter = require('./routes/servicos')
 
 var app = express();
 
@@ -21,6 +22,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+
+// app.use('/servicos', servicosRouter)  
+// --- essa linha tá causando erro no servidor. ainda não descobri o erro (Moisés)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
