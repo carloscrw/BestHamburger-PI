@@ -9,7 +9,7 @@ const servicosController = require('../controllers/servicosController')
 // router.get('/', function(req, res, next) {
 //     res.render('index', { title: 'Express' });
 // });
-
+router.get('/', usuarioController.index)
 router.get('/cadastro', usuarioController.cadastro)
 router.get('/login', usuarioController.login)
 router.get('/minhaConta', usuarioController.minhaConta)

@@ -1,4 +1,7 @@
 const usuarioController = {
+    index: (req, res)=>{
+        res.render('index')
+    },
     cadastro: (req, res) => {
         res.render('cadastro')
     },
@@ -7,13 +10,7 @@ const usuarioController = {
     },     
     minhaConta: (req, res) => {
         res.render('minhaConta')
-<<<<<<< HEAD
-
     }
 
-=======
-    },
->>>>>>> 456d4314236b629c45d54dd1ed768ba5bf3b50f9
 }
-
-module.exports = usuarioController
+ module.exports = usuarioController
