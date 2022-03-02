@@ -9,6 +9,7 @@ const usuarioController = {
         res.render('minhaConta')
 
     }
+
 }
 
 module.exports = usuarioController
