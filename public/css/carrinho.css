@@ -1,0 +1,186 @@
+#Container-Pai { 
+    display: flex;
+    flex-wrap: wrap;
+    height: 96%;
+    margin: 0;
+}
+
+#Container-Produtos {
+    display:block;
+    width: 57%;
+    height: 100%;
+}
+
+#Estilo-Produtos {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    /* background-color: chartreuse; */
+    align-items: center;
+    height: 3rem;
+    height: 40%;
+}
+
+header h1 {
+    width: 50%;
+    margin-bottom: 0;
+    font-size: 2rem;
+    border-bottom: solid 5px tomato;
+}
+
+#produtos {  
+    background-color: #FDBB10;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 69vh;
+}
+
+.Item {
+    margin: 5vh;
+}
+
+#Container-Subtotal-Cupom {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22vw
+}
+
+#Container-Subtotal { 
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin-top: 13vh;
+}
+
+#Container-Cupom {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 12vh;
+}
+
+#Subtotal {  
+    background-color:#FDBB10;
+    width: 100%;
+}
+
+#Cupons {  
+    width: 100%;
+    border: solid 1px #FDBB10;
+}
+
+h3 {
+    margin: 20px;
+}
+
+#Subtotal p {
+    margin-left: 20px;
+}
+
+li a p {
+    margin: 20px;
+}
+
+li img {
+    width: 70px;
+}
+li a {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+}
+
+
+/* MENU LATERAL */
+
+
+.menu { 
+    min-width: 20%;
+    max-width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-lateral {
+    width: 100px;
+    height: 80vh;
+    background: #0e0b0b;
+    border-radius: 24px;
+    box-shadow: 15px 5px 15px #c0c0c0;
+    display: flex;
+}
+
+.lateral {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icone-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.icone-menu:hover {
+    background-color: #FDBB10;
+}
+
+.icone-menu img:hover {
+    filter: invert(100%)
+}
+
+.lateral img {
+    width: 50px;
+    height: 51.86px;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    height: 5vh;
+    background-color: #FDBB10;
+    margin-top: 0;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+
+.caixa1-footer {
+    width: 29%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa2-footer {
+    width: 71%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rodape-redes {
+    width: 20%;
+}

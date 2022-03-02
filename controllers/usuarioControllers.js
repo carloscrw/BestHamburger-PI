@@ -7,13 +7,10 @@ const usuarioController = {
     },     
     minhaConta: (req, res) => {
         res.render('minhaConta')
-<<<<<<< HEAD
-
-    }
-
-=======
     },
->>>>>>> 456d4314236b629c45d54dd1ed768ba5bf3b50f9
+    carrinho: (req, res) => {
+        res.render('carrinho')
+    }
 }
 
 module.exports = usuarioController

@@ -13,6 +13,7 @@ const servicosController = require('../controllers/servicosController')
 router.get('/cadastro', usuarioController.cadastro)
 router.get('/login', usuarioController.login)
 router.get('/minhaConta', usuarioController.minhaConta)
+router.get('/carrinho', usuarioController.carrinho)
 
 router.get('/cardapio', servicosController.cardapio)
 
