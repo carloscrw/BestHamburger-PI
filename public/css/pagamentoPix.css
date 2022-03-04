@@ -1,0 +1,211 @@
+    * {
+        text-decoration: none;
+        box-sizing: border-box;
+        list-style: none;
+    }
+    
+    body {
+        font-family: 'Nunito', sans-serif;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    nav {
+        display: flex;
+    }
+    
+    .menu {
+        min-width: 20%;
+        max-width: 10%;
+        height: 93vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .menu-lateral {
+        width: 100px;
+        height: 80vh;
+        background: #0e0b0b;
+        border-radius: 24px;
+        box-shadow: 15px 5px 15px #c0c0c0;
+        display: flex;
+    }
+    
+    .lateral {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .icone-menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .icone-menu:hover {
+        background-color: #00BDAE;
+    }
+    
+    .icone-menu img:hover {
+        filter: invert(100%)
+    }
+    
+    .lateral img {
+        width: 50px;
+        height: 51.86px;
+    }
+    
+    .container-cardapio h1 {
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 63px;
+        /* identical to box height */
+        color: #000000;
+        width: 300px;
+        border-style: solid;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        border-color: #FDBB10;
+        padding: 0;
+    }
+    
+    ul {
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 45px;
+    }
+    
+    nav ul li {
+        display: inline-block;
+    }
+    
+    footer {
+        background-color: #FDBB10;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .caixa1-footer {
+        width: 29%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .caixa2-footer {
+        width: 71%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .rodape-redes {
+        width: 20%;
+    }
+    
+    .pagamento-pix {
+        background-color: #00BDAE;
+    }
+    
+    .pagamento-pix img {
+        filter: invert(100%);
+    }
+    
+    .caixa {
+        width: 100%;
+        margin: 25px;
+    }
+    
+    .container {
+        display: flex;
+    }
+    
+    .pag-caixa h1 {
+        width: 200px;
+        border-bottom-style: solid;
+        border-color: #FDBB10;
+    }
+    
+    .card-carousel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .card-carousel .my-card {
+        height: 20rem;
+        width: 12rem;
+        position: relative;
+        z-index: 1;
+        -webkit-transform: scale(0.6) translateY(-2rem);
+        transform: scale(0.6) translateY(-2rem);
+        opacity: 0;
+        cursor: pointer;
+        pointer-events: none;
+        background: #2e5266;
+        background: linear-gradient(to top, #2e5266, #6e8898);
+        transition: 1s;
+    }
+    
+    .card-carousel .my-card:after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        border-radius: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        bottom: 5rem;
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+    }
+    
+    .card-carousel .my-card.active {
+        z-index: 3;
+        -webkit-transform: scale(1) translateY(0) translateX(0);
+        transform: scale(1) translateY(0) translateX(0);
+        opacity: 1;
+        pointer-events: auto;
+        transition: 1s;
+    }
+    
+    .card-carousel .my-card.prev,
+    .card-carousel .my-card.next {
+        z-index: 2;
+        -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+        transform: scale(0.8) translateY(-1rem) translateX(0);
+        opacity: 0.6;
+        pointer-events: auto;
+        transition: 1s;
+    }
+    
+    .galeria {
+        width: 70%;
+        display: flex;
+    }
+    
+    .gallery-container {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .gallery-item {
+        width: 100%;
+        max-width: 200px;
+        max-height: 150px;
+    }
