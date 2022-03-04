@@ -22,6 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/user', usersRouter);
+app.use('/servicos', servicosRouter)
 
 // app.use('/servicos', servicosRouter)  
 // --- essa linha tá causando erro no servidor. ainda não descobri o erro (Moisés)
