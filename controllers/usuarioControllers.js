@@ -10,7 +10,10 @@ const usuarioController = {
     },     
     minhaConta: (req, res) => {
         res.render('minhaConta')
-    }
 
+    },
+    carrinho: (req, res) => {
+        res.render('carrinho')
+    }
 }
  module.exports = usuarioController

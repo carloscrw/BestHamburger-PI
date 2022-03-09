@@ -1,26 +1,136 @@
+#Container-Pai {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+#Container-Menus-Fotos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header h1 {
+    margin-bottom: 0;
+    margin-left: 25px;
+    font-size: 2.5rem;
+    border-bottom: 2px solid chocolate;
+    width: 60%;
+}
+
+#FotoDePerfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#FotoDePerfil img {
+    margin-top: 25px;
+}
+
+#FotoDePerfil p {
+    margin-top: 0;
+}
+
+#Container-Menu-Foto {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#Coluna1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Coluna2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.IconesDoMenu {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Icone {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 50%;
+}
+
 a {
     color: black;
-  }
-  
-  #MenusInterativos {
-    font-size: 5vh;
-    
+}
+
+#Container-Menu-Foto a img {
+    width: 40%;
+    margin: 20px;
+}
+
+#Foto {
+    width: 100px;
+    position: fixed;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+
+/* MENU LATERAL */
+
+
+.menu { 
+    min-width: 20%;
+    max-width: 10%;
+    /* margin-top: 2vh; */
     display: flex;
-    flex-wrap: wrap;
-  
-    margin-top: 15vh;
-    justify-content: center;
-    
-    /* margin-left: 15vw;
-    margin-top: 15vh; */
-  }
-  
-  #FotoDePerfil {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-lateral {
+    width: 100px;
+    height: 80vh;
+    background: #0e0b0b;
+    border-radius: 24px;
+    box-shadow: 15px 5px 15px #c0c0c0;
     display: flex;
-    box-sizing: border-box;
-    flex-direction: row;
-    flex-wrap: wrap;
-  
+}
+
+.lateral {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icone-menu {
+    width: 100%;
+    display: flex;
     justify-content: center;
-  
-  }  
+}
+
+.icone-menu:hover {
+    background-color: #FDBB10;
+}
+
+.icone-menu img:hover {
+    filter: invert(100%)
+}
+
+.lateral img {
+    width: 50px;
+    height: 51.86px;
+}
