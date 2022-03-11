@@ -1,11 +1,96 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/css/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Burger</title>
+    <link rel="stylesheet" href="/css/pagePrincipal.css">
+    <link rel="stylesheet" href="/javascripts/teste.js">
+</head>
+<body>
+    <!-- tentativa de carrossel-->
+    <!--<main>
+
+        <section class="galery">
+            <div class="fotos">
+                <img src="./PI_img.img/capaCarrosel.jpg" heigth="500" width="500" alt="foto 1">
+                <img src="./PI_img.img/carrossel.jpg" heigth="500" width="500" alt="foto 2">
+                <img src="./PI_img.img/Capa2.jpg" heigth="500" width="500" alt="foto 3">
+                <img src="./PI_img.img/capaDoSite.jpg" heigth="500" width="500" alt="">
+            </div>
+        </section>
+    </main>
+--> 
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    
+    </div>
+    
+    <div class="carousel-inner">
+      
+        <div class="carousel-item active">
+        
+        <img src="../public/img/carrossel-2.jpg" class="d-block w-100" alt="...">
+       
+        <div class="carousel-caption d-none d-md-block">
+          
+            
+        </div>
+      
+    </div>
+      
+      <div class="carousel-item">
+        <img src="/img/carrossel-1.jpg" class="d-block w-100" alt="...">
+        
+        <div class="carousel-caption d-none d-md-block">
+          
+        </div>
+      
+    </div>
+      
+      <div class="carousel-item">
+        <img src="/img/carrossel-3.jpg" class="d-block w-100" alt="...">
+        
+        <div class="carousel-caption d-none d-md-block">
+          
+        </div>
+      
+    </div>
+    
+          
+            
+            </div>
+      
+        </div>
+           
+       
+        <h1><b>Bem-vindo ao Best Burger </b></h1>
+        <p align="center">As pessoas comem com os olhos e o Best Burger cria uma maneira <br> fácil de os clientes fazerem os pedidos, quando podem ver belas fotos <br> da sua comida</p>
+      
+      <div class="glass-wrapper"></div>
+
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    
+    </button>
+  
+</div>
+
+</body>
+</html> 
+
+
