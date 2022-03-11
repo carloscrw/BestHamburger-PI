@@ -29,7 +29,7 @@
                 width: 100px;
                 height: 80vh;
                 background: #0e0b0b;
-                border-radius: 24px;
+                border-radius: 15px;
                 box-shadow: 15px 5px 15px #c0c0c0;
                 display: flex;
             }
@@ -120,4 +120,5 @@
             
             .rodape-redes {
                 width: 20%;
+                color: #575757;
             }
