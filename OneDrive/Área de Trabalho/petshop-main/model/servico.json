@@ -1,0 +1,17 @@
+[
+  {
+      "id":1, "nome": "banho", "preco": "R$ 40,00", "descricao": "Banho no pet", "img": "../public/img/banho.jpg"
+  },
+  {
+    "id":2,"nome":"tosa", "preco":"R$ 30,00", "descricao": "Tosar pelo do pet"
+  },
+  {
+    "id":3,"nome":"hidratacao", "preco":" R$ 50,00", "descricao": "hidratar pelo"
+  },
+  {
+    "id":4,"nome":"aplicacaoVacina",  "preco": "R$ 80,00", "descricao": "Vacinar o pet"
+  },
+  {
+    "id":5,"nome":"teste",  "preco": "R$ 800,00", "descricao": "teste"
+  }]
+  

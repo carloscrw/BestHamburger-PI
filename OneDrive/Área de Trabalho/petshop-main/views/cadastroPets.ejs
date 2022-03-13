@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETSHOP DH</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <%- include('./partials/header.ejs') %>
+    <main>
+   
+        <h1>FORM PETS</h1>
+        <form class="exibePet" action="/cadastrapet" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" />
+            <label for="species">Especie</label>
+            <input type="text"  name="species" />
+            <label for="favFoods">Comidas Favoritas:</label>
+            <input type="text"  name="favFoods" />
+            <label for="birthYear">Ano Aniversario:</label>
+            <input type="text"  name="birthYear" />
+            <button type="submit">enviar</button>
+    </form>
+
+    <%- include('./partials/footer.ejs') %>
+</body>
+
+</html>
