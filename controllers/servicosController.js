@@ -1,6 +1,6 @@
 const rotasServicos = {
-    cardapio: (req, res) => {
-        res.render('cardapio')
+    cardapioacompanhamentos: (req, res) => {
+        res.render("cardapioacompanhamentos")
     },
     pagamentoPix: (req, res) => {
         res.render("pagamentoPix")

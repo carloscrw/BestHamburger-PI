@@ -1,0 +1,285 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: #575757;
+}
+
+main {
+    display: flex;
+    flex-direction: row;    
+}
+
+nav {
+    display: flex;
+}
+
+.menu {
+    min-width: 20%;
+    max-width: 10%;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-lateral {
+    width: 100px;
+    height: 80vh;
+    background: #0e0b0b;
+    border-radius: 24px;
+    box-shadow: 15px 5px 15px #c0c0c0;
+    display: flex;
+}
+
+.lateral {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icone-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.icone-menu:hover {
+    background-color: #FDBB10;
+}
+
+.icone-menu img:hover {
+    filter: invert(100%)
+}
+
+.lateral img {
+    width: 50px;
+    height: 51.86px;
+}
+
+.teste {
+    width: 100%;
+}
+.flexcardapio {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.container-cardapio h1 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 63px;
+    /* identical to box height */
+    color: #000000;
+    width: 300px;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-color: #FDBB10;
+    padding: 0;
+}
+
+ul {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-color: #FDBB10;
+}
+
+nav ul li {
+    display: inline-block;
+    justify-content: row;
+}
+
+li a:hover{
+    background-color: #FDBB10;
+}
+
+
+/* FLEXBOX IMAGENS */
+
+button {
+    background-color: #FDBB10;
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+     border-style: none ;
+}
+
+span{
+ margin: 10px;
+ font-size: 14px;
+}
+
+.bolinho{
+    margin:0
+}
+ .preco {
+     color:blue;
+     font-size: 14px;
+     margin: 05px;
+     
+ }
+.tudo {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+  }
+
+  .tudo img {
+
+    border-radius: 20px;
+  }
+
+.flex {
+    display: flex; 
+    justify-content: center; 
+}
+
+.flexbox-img {
+    
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    margin: 30px;
+    
+    
+}
+
+.flexbox-img2 {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    margin: 30px;
+   
+}
+
+.flexbox-img3 {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    margin: 30px;
+   
+}
+
+.flexbox-img4 {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    margin: 30px;
+   
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+   
+
+    
+}
+
+.flexbox-img5{
+    
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    margin: 30px;
+}
+
+.flexbox-img6 {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    margin: 30px;
+   
+}
+
+.flexbox-img7 {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    margin: 30px;
+   
+}
+
+.flexbox-img8 {
+    width: 200px;
+    height: 250px;
+    background-color:white;
+    margin: 30px;  
+}
+
+.semirodape {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.botao{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    
+}
+
+.botao a {
+    color: white;
+    text-transform: uppercase;
+}
+ .whast {
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ .botaowhats{
+     margin-left: 950px;
+ }
+
+
+footer {
+    background-color: #FDBB10;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    margin-bottom: 200px;
+}
+
+.caixa1-footer {
+    width: 29%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa2-footer {
+    width: 71%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rodape-redes {
+    width: 20%;
+}
