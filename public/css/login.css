@@ -81,7 +81,7 @@
             background: #40CC6F;
             box-sizing: border-box;
             box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-            border-radius: 36px;
+            border-radius: 10px;
         }
         
         .bnt-login a {
@@ -207,7 +207,7 @@
             display: flex;
             align-items: center;
             background-color: rgba(177, 170, 170, 0.25);
-            border-radius: 20px;
+            border-radius: 10px;
             justify-content: center;
         }
         
