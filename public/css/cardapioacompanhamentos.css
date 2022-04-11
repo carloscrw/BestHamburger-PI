@@ -20,7 +20,7 @@ main {
 nav {
     display: flex;
 }
-
+/* MENU LATERAL */
 .menu {
     min-width: 20%;
     max-width: 10%;
@@ -256,7 +256,7 @@ span{
      margin-left: 950px;
  }
 
-
+/* roda pé */
 footer {
     background-color: #FDBB10;
     width: 100%;

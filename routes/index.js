@@ -15,5 +15,7 @@ router.get('/login', usuarioController.login)
 router.get('/minhaConta', usuarioController.minhaConta)
 router.get('/carrinho', usuarioController.carrinho)
 router.get('/cardapioacompanhamentos', servicosController.cardapioacompanhamentos)
+router.get('/cardapiohamburguer', servicosController.cardapiohamburguer)
+router.get('/pagamentoAprovado', servicosController.pagamentoAprovado)
 
 module.exports = router;
