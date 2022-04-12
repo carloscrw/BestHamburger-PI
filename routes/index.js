@@ -15,6 +15,7 @@ router.get('/login', usuarioController.login)
 router.get('/minhaConta', usuarioController.minhaConta)
 router.get('/carrinho', usuarioController.carrinho)
 router.get('/cardapioacompanhamentos', servicosController.cardapioacompanhamentos)
+router.get('/cardapioahamburgueres', servicosController.cardapioahamburgueres)
 router.get('/cardapiobebidas', servicosController.cardapiobebidas)
 router.get('/pagamentoAprovado', servicosController.pagamentoAprovado)
 
