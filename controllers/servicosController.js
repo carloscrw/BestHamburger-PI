@@ -2,8 +2,8 @@ const rotasServicos = {
     cardapioacompanhamentos: (req, res) => {
         res.render("cardapioacompanhamentos")
     },
-    cardapiohamburguer: (req, res)=> {
-        res.render("cardapiohamburguer")
+    cardapiobebidas: (req, res)=> {
+        res.render("cardapiobebidas")
     },
     pagamentoPix: (req, res) => {
         res.render("pagamentoPix")
