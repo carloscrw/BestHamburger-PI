@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Biblioteca Card</title>
+</head>
+<body>
+    <!-- Dados do Cartão-->
+    <script src="card-master/dist/card.js"></script>
+    <div class='card-wrapper'></div>
+    <form id="formCard">
+        <div>
+            <input type="text" name="number" placeholder="Numero Cartão" />
+            <input type="text" name="name" placeholder="Nome" />
+        </div>
+        <div>
+            <input type="text" name="expiry" placeholder="Data" />
+            <input type="text" name="cvc" placeholder="CVC" />
+        </div>
+        <div>
+            <input id="btn" type="submit" value="Enviar" />
+        </div>
+    </form>
+    <script>
+        let cartao = new Card({
+            form: '#formCard',
+            container: '.card-wrapper',
+            // Altera o placeholder
+            placeholders: {
+                name: 'Seu nome aqui'
+            }
+        });
+    </script>
+</body>
+</html>
