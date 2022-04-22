@@ -8,4 +8,10 @@ const servicosController = require('../controllers/servicosController')
 router.get('/pagamentoPix', servicosController.pagamentoPix)
     // router.get('/cardapio', rotasRequire.cardapio)
 
+router.get('/cardapioacompanhamentos', servicosController.cardapioacompanhamentos)
+router.get('/cardapioahamburgueres', servicosController.cardapioahamburgueres)
+router.get('/cardapiobebidas', servicosController.cardapiobebidas)
+router.get('/pagamentoAprovado', servicosController.pagamentoAprovado)
+
+
 module.exports = router
