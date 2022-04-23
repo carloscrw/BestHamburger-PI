@@ -18,11 +18,11 @@ const result = async() => {
     const endereco = await Endereco.create({
         local: "Casa",
         bairro: "Aguaçai",
-        numero: "62",
+        numero: '61',
         rua: "Costa Rica",
         referencia: "km 49",
         cep: "06726260",
-        usuario_id: 1
+        usuario_id: 2
 
     })
 

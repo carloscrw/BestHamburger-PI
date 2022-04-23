@@ -34,7 +34,7 @@ const Endereco = (sequelize, DataTypes) => {
             timestamps: false
         })
     Endereco.associate = (models => {
-        Endereco.belongsto(models.Usuario, { as: "endereco_usuario", foreignKey: 'usuario_id' })
+        Endereco.belongsTo(models.Usuario, { as: "endereco_usuario", foreignKey: 'usuario_id' })
     })
     return endereco
 }
