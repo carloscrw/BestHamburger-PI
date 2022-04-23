@@ -1,5 +1,3 @@
-const { DataTypes } = require("sequelize/types")
-
 const Endereco = (sequelize, DataTypes) => {
     const endereco = sequelize.define(
         'Endereco', {
@@ -26,7 +24,7 @@ const Endereco = (sequelize, DataTypes) => {
                 allownull: false,
             }
         }, {
-            tableName: "usuario",
+            tableName: "endereco",
             timestamps: false
 
         }

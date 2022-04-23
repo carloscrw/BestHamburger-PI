@@ -14,7 +14,7 @@ const result = async() => {
 
 
         })
-        // // const enderco = await Endereco.create({
+        // // const endereco = await Endereco.create({
         // //     local: "Casa",
         // //     bairro: "Aguaçai",
         // //     numero: "62",
