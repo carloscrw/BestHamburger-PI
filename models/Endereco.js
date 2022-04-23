@@ -1,5 +1,3 @@
-const { DataTypes } = require("sequelize/types")
-
 const Endereco = (sequelize, DataTypes) => {
     const endereco = sequelize.define(
         'Endereco', {
@@ -24,13 +22,20 @@ const Endereco = (sequelize, DataTypes) => {
             cep: {
                 type: DataTypes.STRING,
                 allownull: false,
+            },
+
+            usuario_id: {
+                type: DataTypes.INTEGER
+
+
             }
         }, {
-            tableName: "usuario",
+            tableName: "endereco",
             timestamps: false
-
-        }
-    )
+        })
+    Endereco.associate = (models => {
+        Endereco.belongsto(models.Usuario, { as: "endereco_usuario", foreignKey: 'usuario_id' })
+    })
     return endereco
 }
 
