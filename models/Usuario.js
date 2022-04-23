@@ -36,6 +36,10 @@ const Usuario = (sequelize, DataTypes) => {
             timestamps: false
         }
     )
+    Usuario.associate = (models => {
+        Usuario.hasMany(models.Endereco, { as: "usuario_endereco", foreignKey: 'usuario_id' })
+    })
+
     return usuario
 }
 
