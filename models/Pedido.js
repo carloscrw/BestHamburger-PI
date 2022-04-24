@@ -1,5 +1,5 @@
 const Pedido = (sequelize, DataTypes) => {
-const pedido = sequelize.define(
+    const pedido = sequelize.define(
         'Pedido', {
             status: {
                 type: DataTypes.STRING,
@@ -31,11 +31,14 @@ const pedido = sequelize.define(
             timestamps: false
         }
     )
-    // Pedido.associate = (models => {
-    //     Pedido.hasmany(models.Endereco, { as: "usuario_endereco", foreignKey: 'usuario_id' })
-})
+    Pedido.associate = (models => {
+        Pedido.belongsTomany(models.Produto, { as: "produto", through: "produto_pedido", foreignKey: 'pedido_id', otherKey: "produto_id", timestamps: false })
 
-return pedido
+        // Pedido.associate = (models => {
+        //     Pedido.belongsTomany(models.Produto, { as: "usuario_endereco", foreignKey: 'usuario_id' })
+    })
+
+    return pedido
 }
 
 module.exports = Pedido
