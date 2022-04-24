@@ -3,41 +3,41 @@ const { Op } = require('sequelize')
 
 const result = async() => {
 
-    // const usuario = await Usuario.create({
-    //     //     nome: "Carlos",
-    //     //     sobrenome: "Henrique",
-    //     //     cpf: "022.709.231-70",
-    //     //     telefone: "61998492380",
-    //     //     email: "carlos.c.r.w@gmail.com",
-    //     //     genero: "M",
-    //     //     data_de_nascimento: '07-04-1993',
-    //     //     senha: ""
+    const usuario = await Usuario.create({
+            nome: "veronica",
+            sobrenome: "bandeira",
+            cpf: "085.739.256-70",
+            telefone: "11987876469",
+            email: "veronica.bandeira@gmail.com",
+            genero: "F",
+            data_de_nascimento: '14-05-1993',
+            senha: "0123456"
 
+
+        })
+        // const endereco = await Endereco.create({
+        //     local: "Casa",
+        //     bairro: "Aguaçai",
+        //     numero: '61',
+        //     rua: "Costa Rica",
+        //     referencia: "km 49",
+        //     cep: "06726260",
+        //     usuario_id: 2
 
     // })
-    // const endereco = await Endereco.create({
-    //     local: "Casa",
-    //     bairro: "Aguaçai",
-    //     numero: '61',
-    //     rua: "Costa Rica",
-    //     referencia: "km 49",
-    //     cep: "06726260",
-    //     usuario_id: 2
+
+    // const pedido = await Pedido.create({
+    //     status: "pagamento aprovado",
+    //     preco_total: "200,00",
+    //     data: '07-04-2022',
+    //     frete: 14.00,
+    //     cartao_credito: "false",
+    //     pix: "false",
+    //     dinheiro: "true",
+    //     usuario_id: 2,
+    //     produto_id: 0,
 
     // })
-
-    const pedido = await Pedido.create({
-        status: "pagamento aprovado",
-        preco_total: "200,00",
-        data: '07-04-2022',
-        frete: 14.00,
-        cartao_credito: "false",
-        pix: "false",
-        dinheiro: "true",
-        usuario_id: 2,
-        produto_id: 0,
-
-    })
 
 
 

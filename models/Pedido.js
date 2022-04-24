@@ -30,7 +30,7 @@ const Pedido = (sequelize, DataTypes) => {
         }
     )
     Pedido.associate = (models => {
-        Pedido.belongsTomany(models.Produto, { as: "produto", through: "produto_pedido", foreignKey: 'pedido_id', otherKey: "produto_id", timestamps: false })
+        Pedido.belongsToMany(models.Produto, { as: "produto", through: "produto_pedido", foreignKey: 'pedido_id', otherKey: "produto_id", timestamps: false })
 
         Pedido.belongsTo(models.Usuario, { as: "pedido_usuario", foreignKey: 'usuario_id' })
     })
