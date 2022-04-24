@@ -23,9 +23,7 @@ const Pedido = (sequelize, DataTypes) => {
             usuario_id: {
                 type: DataTypes.INTEGER
             },
-            produto_id: {
-                type: DataTypes.INTEGER
-            }
+
         }, {
             tableName: "pedido",
             timestamps: false
@@ -34,8 +32,7 @@ const Pedido = (sequelize, DataTypes) => {
     Pedido.associate = (models => {
         Pedido.belongsTomany(models.Produto, { as: "produto", through: "produto_pedido", foreignKey: 'pedido_id', otherKey: "produto_id", timestamps: false })
 
-        // Pedido.associate = (models => {
-        //     Pedido.belongsTomany(models.Produto, { as: "usuario_endereco", foreignKey: 'usuario_id' })
+        Pedido.belongsTo(models.Usuario, { as: "pedido_usuario", foreignKey: 'usuario_id' })
     })
 
     return pedido

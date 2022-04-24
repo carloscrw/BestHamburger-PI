@@ -1,7 +1,7 @@
 {
     "development": {
         "username": "root",
-        "password": null,
+        "password": "root",
         "database": "besthamburger",
         "host": "localhost",
         "dialect": "mysql",

@@ -1,4 +1,4 @@
-const { sequelize, Usuario, Endereco } = require('./models/index')
+const { sequelize, Usuario, Endereco, Pedido } = require('./models/index')
 const { Op } = require('sequelize')
 
 const result = async() => {
@@ -15,16 +15,30 @@ const result = async() => {
 
 
     // })
-    const endereco = await Endereco.create({
-        local: "Casa",
-        bairro: "Aguaçai",
-        numero: '61',
-        rua: "Costa Rica",
-        referencia: "km 49",
-        cep: "06726260",
-        usuario_id: 2
+    // const endereco = await Endereco.create({
+    //     local: "Casa",
+    //     bairro: "Aguaçai",
+    //     numero: '61',
+    //     rua: "Costa Rica",
+    //     referencia: "km 49",
+    //     cep: "06726260",
+    //     usuario_id: 2
+
+    // })
+
+    const pedido = await Pedido.create({
+        status: "pagamento aprovado",
+        preco_total: "200,00",
+        data: '07-04-2022',
+        frete: 14.00,
+        cartao_credito: "false",
+        pix: "false",
+        dinheiro: "true",
+        usuario_id: 2,
+        produto_id: 0,
 
     })
+
 
 
 
