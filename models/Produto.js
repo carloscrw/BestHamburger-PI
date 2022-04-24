@@ -13,10 +13,7 @@ const Produto = (sequelize, DataTypes) => {
                 type: DataTypes.STRING,
                 allownull: false
             },
-            quantidade: {
-                type: DataTypes.INTEGER,
-                allownull: false
-            },
+
             img: {
                 type: DataTypes.STRING,
                 allownull: false
