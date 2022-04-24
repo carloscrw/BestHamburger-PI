@@ -26,10 +26,10 @@ const Produto = (sequelize, DataTypes) => {
         }
     )
     Produto.associate = (models => {
-        Produto.belongsToMany(models.Produto, { as: "pedido", through: "pedido_produto", foreignKey: 'produto_id', otherKey: "pedido_id", timestamps: false })
+        Produto.belongsToMany(models.Pedido, { as: "pedido", through: "pedido_produto", foreignKey: 'produto_id', otherKey: "pedido_id", timestamps: false })
     })
 
-    return Produto
+    return produto
 }
 
 module.exports = Produto
