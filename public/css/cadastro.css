@@ -20,6 +20,8 @@
         }
         
         h1 {
+            margin-bottom: 40px;
+            height: 50px;
             font-family: 'Mulish', sans-serif;
             font-style: normal;
             font-weight: bold;
@@ -27,11 +29,10 @@
             line-height: 84px;
             /* identical to box height */
             color: #E24445;
-            
+            text-align: justify;
         }
         
         h4 {
-            margin: 5px;
             font-family: 'Mulish', sans-serif;
             font-style: normal;
             font-weight: normal;
@@ -40,76 +41,64 @@
             /* identical to box height, or 137% */
             letter-spacing: 0.03em;
             color: #E24445;
+            margin: 2px;
         }
         
         .container {
             width: 100%;
+            height: 600px;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            position: relative;
-            
-            
-            
-            
         }
         
         .dados {
-            width: 70%;
-            height: 30%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .formulario {
             width: 100%;
             height: 100%;
             display: flex;
-            flex-direction: column;
-            justify-content: space-around
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
         }
         
         .caixa1 {
-            width: 45%;
+            width: 49%;
             display: flex;
             flex-direction: column;
-           
-        }
-        
-        .teste {
-            width: 100%;
+            margin: 5px;
         }
         
         .caixa2 {
-            width: 45%;
+            width: 49%;
             display: flex;
             flex-direction: column;
-            
+            margin: 5px;
         }
         
         .caixa3 {
             width: 100%;
             display: flex;
             flex-direction: column;
-            
+            margin: 6px;
         }
         
         .dados2 {
             width: 100%;
             display: flex;
             justify-content: space-between;
+            margin: 5px;
         }
         
         label {
+            padding: 5px;
             font-family: 'Mulish';
             font-style: normal;
             font-weight: 300;
-            font-size: 15px;
+            font-size: 25px;
             line-height: 15px;
             /* identical to box height */
-            color: rgba(0, 0, 0, 0.5);
+            color: rgb(107, 105, 105);
         }
         
         form input {
@@ -126,9 +115,9 @@
             font-size: 20px;
             line-height: 15px;
             opacity: 80%;
-           
         }
-        ::placeholder{
+        
+         ::placeholder {
             padding: 20px;
             opacity: 80%;
             font-family: 'Mulish';
@@ -136,19 +125,18 @@
         }
         
         button {
-            margin: 20px;
-            width: 229px;
-            height: 46px;
+            width: 250px;
+            height: 250px;
+            padding: 10px;
             background: #E24445;
-            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
-            border-radius: 4px;
+            border-radius: 5px;
             font-family: 'Mulish';
             font-style: normal;
-            font-weight: 600;
-            font-size: 16px;
+            font-size: 26px;
             line-height: 22px;
             /* identical to box height, or 137% */
             color: #FFFFFF;
+            margin-top: 30px;
         }
         
         footer {
@@ -160,6 +148,22 @@
             position: absolute;
             bottom: 0;
             width: 100%;
+        }
+        
+        select {
+            width: 100%;
+            height: 54px;
+            border: none 0;
+            outline: 0;
+            background: rgba(254, 85, 85, 0.11);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 15px;
+            opacity: 80%;
         }
         
         .caixa1-footer {
