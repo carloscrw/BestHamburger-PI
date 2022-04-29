@@ -14,25 +14,26 @@ body {
 
 main {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
+    border: 10px solid purple
 }
 
 nav {
     display: flex;
 }
-/* MENU LATERAL */
+
 .menu {
     min-width: 20%;
     max-width: 10%;
-    height: 93vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 .menu-lateral {
-    width: 100px;
-    height: 80vh;
+    width: 80px;
+    height: 90vh;
     background: #0e0b0b;
     border-radius: 24px;
     box-shadow: 15px 5px 15px #c0c0c0;
@@ -42,6 +43,7 @@ nav {
 .lateral {
     width: 100%;
     height: 100%;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -63,18 +65,21 @@ nav {
 }
 
 .lateral img {
-    width: 50px;
-    height: 51.86px;
+    width: 30px;
 }
 
 .teste {
     width: 100%;
 }
+
 .flexcardapio {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
+    width: 100vw;
+    border: 10px solid green
 }
+
 .container-cardapio h1 {
     font-family: 'Mulish', sans-serif;
     font-style: normal;
@@ -110,7 +115,7 @@ nav ul li {
     justify-content: row;
 }
 
-li a:hover{
+li a:hover {
     background-color: #FDBB10;
 }
 
@@ -122,48 +127,49 @@ button {
     width: 200px;
     height: 25px;
     border-radius: 20px;
-     border-style: none ;
+    border-style: none;
 }
 
-span{
- margin: 10px;
- font-size: 14px;
+span {
+    margin: 10px;
+    font-size: 14px;
 }
 
-.bolinho{
-    margin:0
+.bolinho {
+    margin: 0
 }
- .preco {
-     color:blue;
-     font-size: 14px;
-     margin: 05px;
-     
- }
+
+.preco {
+    color: blue;
+    font-size: 14px;
+    margin: 05px;
+}
+
 .tudo {
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     margin-bottom: 70px;
-  }
+    border: 10px solid red
+}
 
-  .tudo img {
-
+.tudo img {
     border-radius: 20px;
-  }
+    justify-content: space-around;
+}
 
 .flex {
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
+    border: 10px solid blue
 }
 
 .flexbox-img {
-    
     width: 200px;
     height: 250px;
     background-color: white;
     margin: 30px;
-    
-    
+    border: 5px solid red
 }
 
 .flexbox-img2 {
@@ -171,7 +177,7 @@ span{
     height: 250px;
     background-color: white;
     margin: 30px;
-   
+    border: 5px solid red
 }
 
 .flexbox-img3 {
@@ -179,7 +185,7 @@ span{
     height: 250px;
     background-color: white;
     margin: 30px;
-   
+    border: 5px solid red
 }
 
 .flexbox-img4 {
@@ -187,23 +193,21 @@ span{
     height: 250px;
     background-color: white;
     margin: 30px;
-   
+    border: 5px solid red
 }
 
 .flex2 {
     display: flex;
     justify-content: center;
-   
-
-    
+    border: 10px solid yellow
 }
 
-.flexbox-img5{
-    
+.flexbox-img5 {
     width: 200px;
     height: 250px;
     background-color: white;
     margin: 30px;
+    border: 5px solid red
 }
 
 .flexbox-img6 {
@@ -211,7 +215,7 @@ span{
     height: 250px;
     background-color: white;
     margin: 30px;
-   
+    border: 5px solid red
 }
 
 .flexbox-img7 {
@@ -219,44 +223,44 @@ span{
     height: 250px;
     background-color: white;
     margin: 30px;
-   
+    border: 5px solid red
 }
 
 .flexbox-img8 {
     width: 200px;
     height: 250px;
-    background-color:white;
-    margin: 30px;  
+    background-color: white;
+    margin: 30px;
+    border: 5px solid red
 }
 
 .semirodape {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-
+    border: 10px solid black
 }
 
-.botao{
+.botao {
     background-color: black;
     width: 200px;
     height: 50px;
-    
 }
 
 .botao a {
     color: white;
     text-transform: uppercase;
 }
- .whast {
-     display: flex;
-     justify-content: flex-end;
- }
 
- .botaowhats{
-     margin-left: 950px;
- }
+.whast {
+    display: flex;
+    justify-content: flex-end;
+}
 
-/* roda pé */
+.botaowhats {
+    margin-left: 950px;
+}
+
 footer {
     background-color: #FDBB10;
     width: 100%;
