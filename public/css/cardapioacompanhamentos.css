@@ -97,6 +97,11 @@ nav {
     padding: 0;
 }
 
+#cardapiotitulo {
+    border: 1px solid black;
+    margin-left: 5%;
+}
+
 ul {
     font-family: 'Mulish', sans-serif;
     font-style: normal;
@@ -160,7 +165,7 @@ span {
 
 .flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     border: 10px solid blue
 }
 
@@ -194,12 +199,6 @@ span {
     background-color: white;
     margin: 30px;
     border: 5px solid red
-}
-
-.flex2 {
-    display: flex;
-    justify-content: center;
-    border: 10px solid yellow
 }
 
 .flexbox-img5 {
@@ -252,13 +251,10 @@ span {
     text-transform: uppercase;
 }
 
-.whast {
+.botaowhats {
     display: flex;
     justify-content: flex-end;
-}
-
-.botaowhats {
-    margin-left: 950px;
+    border: 10px solid blue
 }
 
 footer {
