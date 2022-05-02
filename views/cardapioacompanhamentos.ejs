@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,10 +39,10 @@
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
-    
-    
+
+
         <div class="flexcardapio">
             <nav>
                 <div class="container-cardapio">
@@ -55,86 +54,39 @@
                             <li><a href="">Acompanhamentos</a></li>
                         </ul>
                     </div>
-               </div>
+                </div>
             </nav>
-    
-        <section class="tudo">
-            <div class="flex">
-                <div class="flexbox-img">
-                    <img src="acompanhamento01.jpeg " width="200px" height="250px">
-                    <span>Batata Frita</span>
-                    <span class="preco">R$ 25,00</span>
-                    <button>Adicionar</button>
-                </div>
-                  
-                <div class="flexbox-img2">
-                    <img src="acompanhamento02.jpg" width="200px" height="250px"> 
-                    <span>Frango Frito</span> 
-                    <span class="preco">R$ 50,00</span> 
-                    <button>Adicionar</button> 
-                </div>
-            
-                <div class="flexbox-img3">
-                    <img src="acompanhamento03.jpeg " width="200px" height="250px">
-                    <span class="bolinho">Bolinho de Bacalhau</span>
-                    <span class="preco">R$ 40,00</span>
-                    <button>Adicionar</button>
-                </div>
-            
-                <div class="flexbox-img4">
-                    <img src="acompanhamento04.jpeg " width="200px" height="250px">
-                    <span>Onion Ring</span>
-                    <span class="preco">R$ 20,00</span>
-                    <button>Adicionar</button>
-                </div>
-            </div>
-            
-            <div class="flex2">
-                <div class="flexbox-img5">
-                    <img src="acompanhamento05.jpg" width="200px" height="250px">
-                    <span>Batata Completa</span>
-                    <span class="preco">R$ 30,00</span>
-                    <button>Adicionar</button>
-                </div>
-                  
-            
-                <div class="flexbox-img6">
-                    <img src="acompanhamento06.jpeg" width="200px" height="250px"> 
-                    <span>Salada Completa</span> 
-                    <span class="preco">R$ 25,00</span>
-                    <button>Adicionar</button>
-                 </div>
-            
-                 <div class="flexbox-img7">
-                    <img src="acompanhamento07.jpg" width="200px" height="250px">
-                    <span>Queijo Nacho</span>
-                    <span class="preco">R$ 30,00</span>
-                    <button>Adicionar</button>
-                </div>
-            
-                <div class="flexbox-img8">
-                    <img src="acompanhamento08.jpg" width="200px" height="250px">
-                    <span>Molhos variados</span>
-                    <span class="preco">R$ 15,00</span>
-                    <button>Adicionar</button>
-                </div>
-            </div>
-        </section>
-        <div class="semirodape">
-            <button class="botao"><a href=""> Proxima Pagina</a> </button>
-        </div>
 
-         
-          <div class="whats">
-              <div class="botaowhats">
-                  <a href=""><img src="logos_whatsapp.png"/ width="50px" height="50px"></a>
-              </div>
-          </div>
-      </div>
+            <section class="tudo">
+                <div class="flex">
+                    <% for (let listadeprodutos of produtos ){%>
+                        <div class="flexbox-img">
+                            <img src=<%=listadeprodutos.img%> width="200px" height="250px">
+                            <span><%=listadeprodutos.nome%></span>
+                            <span class="preco">R$ <%=listadeprodutos.preco%> </span>
+                            <button>Adicionar</button>
+                        </div>
+                        <%}%>
+
+
+
+                </div>
+            </section>
+            <div class="semirodape">
+                <button class="botao"><a href=""> Proxima Pagina</a> </button>
+            </div>
+
+
+            <div class="whats">
+                <div class="botaowhats">
+                    <a href=""><img src="logos_whatsapp.png" / width="50px" height="50px"></a>
+                </div>
+            </div>
+        </div>
     </main>
 
-        
-    
+
+
     <footer>
         <div class="caixa1-footer">
             <div class="rodape-text">
@@ -154,7 +106,7 @@
                 </a>
             </div>
         </div>
-    </footer> 
+    </footer>
 </body>
 
 </html>
