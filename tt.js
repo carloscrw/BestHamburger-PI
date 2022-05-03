@@ -1,16 +1,16 @@
 const { sequelize, Usuario, Endereco, Pedido } = require('./models/index')
-const { Op } = require('sequelize')
+
 
 const result = async() => {
 
     const usuario = await Usuario.create({
-            nome: "veronica",
+            nome: "veronica 2",
             sobrenome: "bandeira",
             cpf: "085.739.256-70",
             telefone: "11987876469",
             email: "veronica.bandeira@gmail.com",
             genero: "F",
-            data_de_nascimento: '14-05-1993',
+            data_de_nascimento: '1993-05-14',
             senha: "0123456"
 
 
