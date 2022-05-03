@@ -24,7 +24,6 @@ const Produto = (sequelize, DataTypes) => {
                 allownull: false
             },
 
-
         }, {
             tableName: "produto",
             timestamps: false
