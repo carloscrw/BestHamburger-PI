@@ -17,8 +17,12 @@ const Produto = (sequelize, DataTypes) => {
             img: {
                 type: DataTypes.STRING,
                 allownull: false
-            }
+            },
 
+            tipo: {
+                type: DataTypes.STRING,
+                allownull: false
+            },
 
         }, {
             tableName: "produto",
