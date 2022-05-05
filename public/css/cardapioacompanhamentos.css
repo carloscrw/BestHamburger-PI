@@ -14,13 +14,16 @@ body {
 
 main {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
 }
 
 nav {
     display: flex;
 }
+
+
 /* MENU LATERAL */
+
 .menu {
     min-width: 20%;
     max-width: 10%;
@@ -70,11 +73,13 @@ nav {
 .teste {
     width: 100%;
 }
+
 .flexcardapio {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
 }
+
 .container-cardapio h1 {
     font-family: 'Mulish', sans-serif;
     font-style: normal;
@@ -110,7 +115,7 @@ nav ul li {
     justify-content: row;
 }
 
-li a:hover{
+li a:hover {
     background-color: #FDBB10;
 }
 
@@ -122,48 +127,46 @@ button {
     width: 200px;
     height: 25px;
     border-radius: 20px;
-     border-style: none ;
+    border-style: none;
 }
 
-span{
- margin: 10px;
- font-size: 14px;
+span {
+    margin: 10px;
+    font-size: 14px;
 }
 
-.bolinho{
-    margin:0
+.bolinho {
+    margin: 0
 }
- .preco {
-     color:blue;
-     font-size: 14px;
-     margin: 05px;
-     
- }
+
+.preco {
+    color: blue;
+    font-size: 14px;
+    margin: 05px;
+}
+
 .tudo {
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     margin-bottom: 70px;
-  }
+    width: 100%;
+}
 
-  .tudo img {
-
+.tudo img {
     border-radius: 20px;
-  }
+}
 
 .flex {
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
 }
 
 .flexbox-img {
-    
     width: 200px;
     height: 250px;
     background-color: white;
     margin: 30px;
-    
-    
 }
 
 .flexbox-img2 {
@@ -171,7 +174,6 @@ span{
     height: 250px;
     background-color: white;
     margin: 30px;
-   
 }
 
 .flexbox-img3 {
@@ -179,7 +181,6 @@ span{
     height: 250px;
     background-color: white;
     margin: 30px;
-   
 }
 
 .flexbox-img4 {
@@ -187,19 +188,14 @@ span{
     height: 250px;
     background-color: white;
     margin: 30px;
-   
 }
 
 .flex2 {
     display: flex;
     justify-content: center;
-   
-
-    
 }
 
-.flexbox-img5{
-    
+.flexbox-img5 {
     width: 200px;
     height: 250px;
     background-color: white;
@@ -211,7 +207,6 @@ span{
     height: 250px;
     background-color: white;
     margin: 30px;
-   
 }
 
 .flexbox-img7 {
@@ -219,44 +214,44 @@ span{
     height: 250px;
     background-color: white;
     margin: 30px;
-   
 }
 
 .flexbox-img8 {
     width: 200px;
     height: 250px;
-    background-color:white;
-    margin: 30px;  
+    background-color: white;
+    margin: 30px;
 }
 
 .semirodape {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-
 }
 
-.botao{
+.botao {
     background-color: black;
     width: 200px;
     height: 50px;
-    
 }
 
 .botao a {
     color: white;
     text-transform: uppercase;
 }
- .whast {
-     display: flex;
-     justify-content: flex-end;
- }
 
- .botaowhats{
-     margin-left: 950px;
- }
+.whast {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botaowhats {
+    margin-left: 950px;
+}
+
 
 /* roda pé */
+
 footer {
     background-color: #FDBB10;
     width: 100%;

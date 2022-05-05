@@ -10,7 +10,7 @@ router.get('/pagamentoPix', servicosController.pagamentoPix)
     // router.get('/cardapio', rotasRequire.cardapio)
 
 router.get('/cardapioacompanhamentos', cardapioController.acompanhamentos)
-router.get('/cardapioahamburgueres', servicosController.cardapioahamburgueres)
+router.get('/cardapiohamburgueres', cardapioController.hamburgueres)
 router.get('/cardapiobebidas', servicosController.cardapiobebidas)
 router.get('/pagamentoAprovado', servicosController.pagamentoAprovado)
 
