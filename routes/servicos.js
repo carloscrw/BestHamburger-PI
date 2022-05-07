@@ -6,13 +6,13 @@ const router = express.Router();
 const servicosController = require('../controllers/servicosController')
 
 // const rotasRequire = require('../controllers/servicosController')
-router.get('/pagamentoPix', servicosController.pagamentoPix)
-    // router.get('/cardapio', rotasRequire.cardapio)
+
+// router.get('/cardapio', rotasRequire.cardapio)
 
 router.get('/cardapioacompanhamentos', cardapioController.acompanhamentos)
 router.get('/cardapiohamburgueres', cardapioController.hamburgueres)
 router.get('/cardapiobebidas', servicosController.cardapiobebidas)
 router.get('/pagamentoAprovado', servicosController.pagamentoAprovado)
-
+router.get('/pagamento', servicosController.pagamento)
 
 module.exports = router

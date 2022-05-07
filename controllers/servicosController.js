@@ -7,11 +7,11 @@ const rotasServicos = {
         res.render("cardapiohamburgueres")
     },
 
-    cardapiobebidas: (req, res)=> {
+    cardapiobebidas: (req, res) => {
         res.render("cardapiobebidas")
     },
-    pagamentoPix: (req, res) => {
-        res.render("pagamentoPix")
+    pagamento: (req, res) => {
+        res.render("pagamentoSite")
     },
     pagamentoAprovado: (req, res) => {
         res.render("pagamentoAprovado")

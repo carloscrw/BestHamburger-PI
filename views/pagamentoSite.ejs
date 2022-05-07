@@ -1,55 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagamento</title>
-    <link rel="stylesheet" href="./pagamentoSite.css">
-    <link rel="stylesheet" href="./pagasite.css">
-    <script src="./pagamentoSite.js" defer></script>
+    <link rel="stylesheet" href="../css/pagamentoSite.css">
+    <link rel="stylesheet" href="../css/pagasite.css">
+    <script src="../js/pagamentoSite.js" defer></script>
 </head>
-<body>
-  <!-- MENU LATERAL -->
-  <div class="container">
-    <nav class="menu">
 
-        <div class="menu-lateral">
-            <div class="lateral">
-                <div>
-                    <a href=""><img src="/img/logo.png" alt="Logo"></a>
-                </div>
-                <div class="icone-menu">
-                    <a href=""><img src="/img/perfil-left.png" alt="Perfil"></a>
-                </div>
-                <div class="icone-menu">
-                    <a href=""><img src="/img/cardapio-left.png" alt="cardapio"></a>
-                </div>
-                <div class="icone-menu">
-                    <a href=""><img src="/img/carrinho-left.png" alt="carrinho"></a>
-                </div>
-                <div class="icone-menu">
-                    <a href=""><img src="/img/acompanha-pedido-left.png" alt="pedido"></a>
-                </div>
-                <div class="icone-menu">
-                    <a href=""><img src="/img/sair-left.png" alt="sair"></a>
+<body>
+    <!-- MENU LATERAL -->
+    <div class="container">
+        <nav class="menu">
+
+            <div class="menu-lateral">
+                <div class="lateral">
+                    <div>
+                        <a href=""><img src="/img/logo.png" alt="Logo"></a>
+                    </div>
+                    <div class="icone-menu">
+                        <a href=""><img src="/img/perfil-left.png" alt="Perfil"></a>
+                    </div>
+                    <div class="icone-menu">
+                        <a href=""><img src="/img/cardapio-left.png" alt="cardapio"></a>
+                    </div>
+                    <div class="icone-menu">
+                        <a href=""><img src="/img/carrinho-left.png" alt="carrinho"></a>
+                    </div>
+                    <div class="icone-menu">
+                        <a href=""><img src="/img/acompanha-pedido-left.png" alt="pedido"></a>
+                    </div>
+                    <div class="icone-menu">
+                        <a href=""><img src="/img/sair-left.png" alt="sair"></a>
+                    </div>
                 </div>
             </div>
-          </div>
-    </nav>
-  </div>
-  <h1>Forma de pagamento</h1>
+        </nav>
+    </div>
+    <h1>Forma de pagamento</h1>
     <!-- carrossel-->
     <div class="container">
         <input type="radio" name="slider" id="item-1" checked>
         <input type="radio" name="slider" id="item-2">
         <input type="radio" name="slider" id="item-3">
-      <div class="cards">
-        <label class="card" for="item-1" id="song-1">
-          <img src="./img/Card-Pay.png" onclick ="mostrar()">
+        <div class="cards">
+            <label class="card" for="item-1" id="song-1">
+          <img src="../img/Card-Pay.png" >
           <!-- formulario cartão-->
           
-          <form id="container-card">
+          <form id="container-card" >
             <div class="cartao">
               <h2>Cadastre seu cartão:</h2>
                 <div class="card-number">
@@ -67,10 +69,10 @@
         </form>
       
         </label>
-        
-        <!-- carrossel-->
-        <label class="card" for="item-2" id="song-2">
-          <img src="./img/pix-pi.png" alt="song">
+
+            <!-- carrossel-->
+            <label class="card" for="item-2" id="song-2">
+          <img src="../img/pix-pi.png" alt="song">
           <!-- pagar pix -->
           <details>
           <div class="status">
@@ -92,16 +94,16 @@
                 <span class="pagamento2">
                     <h4>Pague com Pix!</h4>
                     <p>Use o app de seu banco ou carteira digital para escanear o código QR abaixo:</p>
-                    <img src="./img/qrcode.png" alt="">
+                    <img src="../img/qrcode.png" alt="">
                     <button>COPIAR CÓDIGO PIX</button>
                 </span>
             </div>
           </details>
           </section>
         </label>
-        <!-- carrossel -->
-        <label class="card" for="item-3" id="song-3">
-          <img src="./img/tickte.png" alt="song">
+            <!-- carrossel -->
+            <label class="card" for="item-3" id="song-3">
+          <img src="../img/tickte.png" alt="song">
           <!-- formulario cartão-->
           <details>
           <form class="container-card">
@@ -122,7 +124,7 @@
         </form>
       </details>
         </label>
-      </div>
+        </div>
     </div>
 </body>
 
