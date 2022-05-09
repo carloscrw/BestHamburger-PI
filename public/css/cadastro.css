@@ -182,3 +182,8 @@
         .rodape-redes {
             width: 20%;
         }
+        
+        .span-form {
+            color: red;
+            font-size: 1.4rem;
+        }

@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -31,89 +31,115 @@
                         <div class="caixa1">
                             <label for="nome">Nome</label>
                             <div>
-                                <!-- <input type="text" name="nome" value="<%= locals.old && old.name %>" placeholder="Insira seu nome">
+                                <input type="text" name="nome" value="<%= locals.old && old.name %>" placeholder="Insira seu nome">
                                 <% if(locals.errors && errors.nome){%>
                                     <span class="span-form">
                                         <%=errors.nome.msg %>
                                     </span>
-                                    <%}%> -->
-</div>
-</div>
-<div class="caixa1">
-    <label for="sobrenome">Sobrenome</label>
-    <div>
-        <input type="text" name="sobrenome" placeholder="Insira seu nome">
-    </div>
-</div>
-</div>
-<div class="dados2">
-    <div class="caixa1">
-        <label for="celular">CPF</label>
-        <input type="text" name="cpf" class="form-control" placeholder="000.000.000-00">
-    </div>
-    <div class="caixa2">
-        <label for="email">Data de Nascimento</label>
-        <input type="date" name="nascimento" value="Nascimento" class="form-control" placeholder="email@email.com">
-    </div>
-</div>
-<div class="dados2">
-    <div class="caixa1">
-        <label for="celular">Celular</label>
-        <input type="tel" name="celular" class="form-control" placeholder="(DDD) 9 999-9999">
-    </div>
-    <div class="caixa2">
-        <label for="genero">Genero</label>
-        <select name="genero" id="genero">
+                                    <%}%>
+                            </div>
+                        </div>
+                        <div class="caixa1">
+                            <label for="sobrenome">Sobrenome</label>
+                            <div>
+                                <input type="text" name="sobrenome" value="<%= locals.old && old.sobrenome %>" placeholder="Insira seu nome">
+                                <% if(locals.errors && errors.sobrenome){%>
+                                    <span class="span-form">
+                                        <%=errors.sobrenome.msg %>
+                                    </span>
+                                    <%}%>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dados2">
+                        <div class="caixa1">
+                            <label for="celular">CPF</label>
+                            <input type="text" name="cpf" class="form-control" value="<%= locals.old && old.cpf %>" placeholder="000.000.000-00">
+                            <% if(locals.errors && errors.cpf){%>
+                                <span class="span-form">
+                                    <%=errors.cpf.msg %>
+                                </span>
+                                <%}%>
+                        </div>
+                        <div class="caixa2">
+                            <label for="data_de_nascimento">Data de Nascimento</label>
+                            <input type="date" name="data_de_nascimento" value="Nascimento" class="form-control" placeholder="email@email.com">
+
+                        </div>
+                    </div>
+                    <div class="dados2">
+                        <div class="caixa1">
+                            <label for="celular">Celular</label>
+                            <input type="tel" name="celular" class="form-control" value="<%= locals.old && old.celular%>" placeholder="(DDD) 9 999-9999">
+                            <% if(locals.errors && errors.celular){%>
+                                <span class="span-form">
+                                    <%=errors.celular.msg %>
+                                </span>
+                                <%}%>
+                        </div>
+                        <div class="caixa2">
+                            <label for="genero">Genero</label>
+                            <select name="genero" id="genero">                                
                             <option selected disabled>-Selecione-</option>
-                            <option name="genero" value="Masculino">Masculino</option>
-                            <option name="genero" value="Feminino">Feminino</option>
-                            <option name="genero" value="Outros">Outros</option>                       
+                            <option  value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                            <option value="Outros">Outros</option>                                              
                         </select>
-    </div>
+                        </div>
 
-</div>
-<div class="caixa3">
-    <label for="senha">Email</label>
-    <input type="text" name="email" class="form-control" placeholder="email@exemplo.com.br">
-</div>
-<div class="caixa3">
-    <label for="senha">Senha</label>
-    <input type="password" name="senha" class="form-control" placeholder="Insira o seu nome">
-</div>
-</div>
-</div>
-<button type="submit">criar uma conta</button>
-<div>
-    <a href="/user/login">
-        <h4>já é um membro? Conecte-se</h4>
-    </a>
-</div>
-</form>
-</section>
-<footer>
-    <div class="caixa1-footer">
-        <div class="rodape-text">
-            <p>Copyrigth © 2021 Best Burger </p>
+                    </div>
+                    <div class="caixa3">
+                        <label for="senha">Email</label>
+                        <input type="text" name="email" class="form-control" value="<%= locals.old && old.email%>" placeholder="email@exemplo.com.br">
+                        <% if(locals.errors && errors.email){%>
+                            <span class="span-form">
+                                <%=errors.email.msg %>
+                            </span>
+                            <%}%>
+                    </div>
+                    <div class="caixa3">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" class="form-control" value="<%= locals.old && old.senha%>" placeholder="Insira o seu nome">
+                        <% if(locals.errors && errors.senha){%>
+                            <span class="span-form">
+                                <%=errors.senha.msg %>
+                            </span>
+                            <%}%>
+                    </div>
+            </div>
         </div>
-    </div>
-    <div class="caixa2-footer">
-        <div class="rodape-redes">
-            <a href="">
-                <img src="/img/icone-whats.png" alt="icone-whats">
+        <button type="submit">criar uma conta</button>
+        <div>
+            <a href="/user/login">
+                <h4>já é um membro? Conecte-se</h4>
             </a>
-            <a href="">
-                <img src="/img/icone-facebook.png" alt="icone-facebook">
-            </a>
-            <a href="">
-                <img src="/img/icone-instagram.png" alt="icone-instagram">
-            </a>
-
         </div>
-    </div>
+        </form>
+    </section>
+    <footer>
+        <div class="caixa1-footer">
+            <div class="rodape-text">
+                <p>Copyrigth © 2021 Best Burger </p>
+            </div>
+        </div>
+        <div class="caixa2-footer">
+            <div class="rodape-redes">
+                <a href="">
+                    <img src="/img/icone-whats.png" alt="icone-whats">
+                </a>
+                <a href="">
+                    <img src="/img/icone-facebook.png" alt="icone-facebook">
+                </a>
+                <a href="">
+                    <img src="/img/icone-instagram.png" alt="icone-instagram">
+                </a>
 
-</footer>
+            </div>
+        </div>
+
+    </footer>
 
 
 </body>
 
-</html> -->
+</html>
