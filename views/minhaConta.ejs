@@ -11,23 +11,20 @@
 
 </head>
 
-
 <body>
 
     <section id="Container-Pai">
 
-        <div class="menu">
+        <!-- <div class="menu">
 
             <div class="menu-lateral">
 
                 <div class="lateral">
-
                     <div>
                         <a href=""><img src="/img/logo.png" alt="Logo"></a>
                     </div>
                     <div class="icone-menu">
-                        <a href=""><img src="https://api.iconify.design/ep/user-filled.svg?color=white"
-                                alt="Perfil"></a>
+                        <a href=""><img src="/img/perfil-left.png" alt="Perfil"></a>
                     </div>
                     <div class="icone-menu">
                         <a href=""><img src="/img/cardapio-left.png" alt="cardapio"></a>
@@ -41,65 +38,76 @@
                     <div class="icone-menu">
                         <a href=""><img src="/img/sair-left.png" alt="sair"></a>
                     </div>
-
                 </div>
+
             </div>
 
-        </div>
+        </div> -->
+        
+        <%- include('./partials/menuLateral') %>
 
-        <section id="Container-Menus-Fotos">
+        <section id="container-Menu-Fotos-Header">
 
             <header>
                 <h1>Minha Conta</h1>
             </header>
 
-            <div id="FotoDePerfil">
-                <a href=""><img src="/img/foto-perfil.png" alt="Sua foto de perfil"></a>
-                <p><a href="">Alterar Foto</a></p>
-            </div>
+            <div id="Container-Menu-Fotos">
 
-            <section id="Container-Menu-Foto">
+                <section id="container-Menu">
 
-                <nav id="Coluna1">
+                    <ul class="listaItensMenu">
 
-                    <div class="IconesDoMenu">
-                        <a href="" class="Icone">
-                            <img src="/img/chat-perfil.png" alt="">Chat</a>
-                        </a>
-                    </div>
+                        <li class="itemMenu">
+                            <a href="">
+                            <img src="/img/meus-produtos-perfil.png" alt="" class="icone">
+                                <p>Meus Pedidos</p>
+                            </a>
+                        </li>
 
-                    <div class="IconesDoMenu"> 
-                        <a href="" class="Icone">
-                            <img src="/img/meus-produtos-perfil.png" alt=""> Produtos
-                        </a>
-                    </div>
-                   
-                    <div class="IconesDoMenu">
-                        <a href="" class="Icone">
-                            <img src="/img/forma-pagamento-perfil.png" alt="">
-                            <p>Formas de Pagamento</p>
-                        </a>
-                    </div>
+                        <li class="itemMenu">
+                            <a href="">
+                                <img src="/img/forma-pagamento-perfil.png" alt="" class="icone">
+                                <p>Formas de Pagamento</p>
+                            </a>
+                        </li>
 
-                </nav>
+                    </ul>
 
-                <nav id="Coluna2">
+                    <ul class="listaItensMenu">
 
-                    <div class="IconesDoMenu">
-                        <a href="" class="Icone">
-                            <img src="/img/cupon-perfil.png" alt=""> Cupom
-                        </a>
-                    </div>
+                        <li class="itemMenu">
+                            <a href="">
+                                <img src="/img/cupon-perfil.png" alt="" class="icone">
+                                <p>Cupom</p>
+                            </a>
+                        </li>
+
+                        <li class="itemMenu">
+                            <a href="">
+                                <img src="/img/settings-perfil.png" alt="" class="icone">
+                                <p>Configurações</p>
+                            </a>
+                        </li>
+
+                    </ul>
                     
-                    <div class="IconesDoMenu">
-                        <a href="" class="Icone">
-                            <img src="/img/settings-perfil.png" alt=""> Configurações
-                        </a>
-                    </div>
-                       
-                </nav>
+                </section>
 
-            </section>
+                <div id="foto-DePerfil-E-Decoracao">
+
+                    <a href=""><img src="/img/foto-perfil.png" alt="Sua foto de perfil"></a>
+
+                    <form action="/minhaconta" method="post" id="FormFotoDePerfil">
+                        <label for="ArquivoFotoDePerfil"></label>
+                        <input type="file" name="ArquivoFotoDePerfil" id="ArquivoFotoDePerfil" accept=".jpg">
+                    </form>
+
+                    <!-- <Img id="fotoDecorativa" src="/img/perfil-right.png" alt="Foto Decorativa"></Img> -->
+
+                </div>
+
+            </div>
 
         </section>
 
