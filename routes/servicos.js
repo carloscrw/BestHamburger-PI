@@ -13,6 +13,7 @@ router.get('/cardapioacompanhamentos', cardapioController.acompanhamentos)
 router.get('/cardapiohamburgueres', cardapioController.hamburgueres)
 router.get('/cardapiobebidas', servicosController.cardapiobebidas)
 router.get('/pagamentoAprovado', servicosController.pagamentoAprovado)
+router.get('/pagamentoEntrega', servicosController.pagamentoEntrega)
 
 
 module.exports = router

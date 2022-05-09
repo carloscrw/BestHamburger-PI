@@ -15,6 +15,9 @@ const rotasServicos = {
     },
     pagamentoAprovado: (req, res) => {
         res.render("pagamentoAprovado")
+    },
+    pagamentoEntrega: (req, res)=> {
+        res.render("pagamentoEntrega")
     }
 }
 
