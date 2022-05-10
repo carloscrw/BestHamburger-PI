@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const usuarioController = require('../controllers/usuarioControllers')
-const validator = require('../middlewares/ValidaCadastroUsuarioMiddlewares')
+const validator = require('../middlewares/ValidaFormsMiddlewares')
 
 router.get('/cadastro', usuarioController.telaCadastro)
 router.post('/cadastro', validator.validaCadastro, usuarioController.cadastroUsuario)
