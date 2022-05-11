@@ -101,7 +101,7 @@
                     </div>
                     <div class="caixa3">
                         <label for="senha">Email</label>
-                        <input type="text" name="email" class="form-control" value="<%= locals.old && old.email%>" placeholder="email@exemplo.com.br">
+                        <input type="email" name="email" class="form-control" value="<%= locals.old && old.email%>" placeholder="email@exemplo.com.br">
                         <% if(locals.errors && errors.email){%>
                             <span class="span-form">
                                 <%=errors.email.msg %>
