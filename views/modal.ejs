@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/modal.css">
+    <script src="/modal.js"></script>
+    <title>Modal</title>
+</head>
+<body>
+    <h1>Forma de Pagamento</h1>
+    <h2>Aceitamos as seguintes opções:</h2> 
+    <div class="card">
+     <div onclick="acao()">  
+    <button >
+        <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"></svg>
+        <img src="./img/money.pi.png">
+        <span>Visa - Débito/Crédito</span>              
+      </button>
+    </div> 
+    <div class="popup-wrapper">
+        <div class="popup">
+            <div class="popup-close">
+                <div class="popup-content">
+                    <h3>Dinheiro</h3>
+                    <p>Você precisa de troco?</p>
+                    <a href="#">Não</a>
+                    <a href="#">Sim</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
