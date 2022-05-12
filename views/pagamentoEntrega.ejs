@@ -1,17 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagamento</title>
-    <link rel="stylesheet" href="../css/pagamentoEntrega.css">
+    <link rel="stylesheet" href="./pagamentoEntrega.css">
+    <script src="/pagamentoEntrega.js"></script>
+    <title>Document</title>
 </head>
-
 <body>
+     
+    <h1>Forma de Pagamento</h1>
+    <h2>Aceitamos as seguintes opções:</h2> 
+    <div class="card">
+     <div onclick="acao()">  
+    <button >
+        <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"></svg>
+        <img src="./img/money.pi.png">
+        <span>Visa - Débito/Crédito</span>              
+      </button>
+    </div> 
+    <!-- MODAL -->
+    <!-- <div class="modal">
+      <div class="modal-content">
+        <span>&times;</span>
+        <h3>Você vai precisar de troco?</h3>
+      </div>
+    </div>   -->
+      <button>
+        <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"></svg>
+        <img src="./img/visa.png">
+        <span>Visa - Débito/Crédito</span>        
+      </button>
+
+      <button>
+        <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"></svg>
+        <img src="./img/mastercard.png">
+        <span>Visa - Débito/Crédito</span>        
+      </button>
+
+      <button>
+        <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"></svg>
+        <img src="./img/elo.png">
+        <span>Visa - Débito/Crédito</span>        
+      </button>
+
+      <button>
+        <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"></svg>
+        <img src="./img/tickte.png">
+        <span>Visa - Débito/Crédito</span>        
+      </button>
+
+      <button>
+        <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"></svg>
+        <img src="./img/sodex.png">
+        <span>Visa - Débito/Crédito</span>        
+      </button>
+    </div>
+    <button class="botao">Finalizar pedido</button>
+    
     <!-- MENU LATERAL -->
-    <!--div class="container">
+  <!--div class="container">
     <nav class="menu">
 
         <div class="menu-lateral">
@@ -37,50 +86,9 @@
             </div>
           </div>
     </nav>
-  </div-->
-    <div>
-        <h1>Forma de Pagamento</h1>
-        <section class="card-opcao">
-            <div class="opcoes">
-                <div class="opcao-1">
-                    <input type="radio">
-                    <img src="../img/money.png" alt="">
-                    <select name="nao precisa de troca" id="">Não precisa de troco</select>
-                </div>
-                <div class="opcao-2">
-                    <input type="radio">
-                    <img src="../img/visa.png" alt="">
-                    <select name="cd" id="">
-                <option value="debito">Débito</option>
-                <option value="debito">Crédito</option>
-            </select>
-                </div>
-                <div class="opcao-3">
-                    <input type="radio">
-                    <img src="../img/mastercard.png" alt="">
-                </div>
-
-                <div class="opcao-4">
-                    <input type="radio">
-                    <img src="../img/tickte.png" alt="">
-                </div>
-
-                <div class="opcao-5">
-                    <input type="radio">
-                    <img src="../img/elo.png" alt="">
-                </div>
-
-                <div class="opcao-6">
-                    <input type="radio">
-                    <img src="../img/sodex.png" alt="">
-                </div>
-
-
-            </div>
-        </section>
-    </div>
-    <!-- FOOTER -->
-    <footer>
+  </div>
+    <!--FOOTER-->
+    <!--footer>
         <div class="caixa1-footer">
             <div class="rodape-text">
                 <p>Copyrigth © 2021 Best Burger </p>
@@ -89,17 +97,16 @@
         <div class="caixa2-footer">
             <div class="rodape-redes">
                 <a href="">
-                    <img src="../img/icone-whats.png" alt="icone-whats">
+                    <img src="/img/icone-whats.png" alt="icone-whats">
                 </a>
                 <a href="">
-                    <img src="../img/icone-facebook.png" alt="icone-facebook">
+                    <img src="/img/icone-facebook.png" alt="icone-facebook">
                 </a>
                 <a href="">
-                    <img src="../img/icone-instagram.png" alt="icone-instagram">
+                    <img src="/img/icone-instagram.png" alt="icone-instagram">
                 </a>
             </div>
         </div>
-    </footer>
+        </footer-->  
 </body>
-
 </html>
