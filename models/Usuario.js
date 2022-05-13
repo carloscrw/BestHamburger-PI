@@ -20,7 +20,7 @@ const Usuario = (sequelize, DataTypes) => {
             },
             genero: DataTypes.STRING,
             data_de_nascimento: {
-                type: DataTypes.DATE,
+                type: DataTypes.STRING,
                 allowNull: false,
             },
             avata: {
@@ -42,5 +42,7 @@ const Usuario = (sequelize, DataTypes) => {
 
     return usuario
 }
+
+
 
 module.exports = Usuario

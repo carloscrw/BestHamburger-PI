@@ -36,8 +36,28 @@ const usuarioController = {
         }
     },
 
-    login: (req, res) => {
+    telaLogin: (req, res) => {
         res.render('login')
+    },
+
+    login: async(req, res) => {
+        const { email, senha } = req.body;
+        console.log(req.body.email)
+        const user = await Usuario.findOne({ where: { email: email } });
+        console.log(user)
+        if (!user) {
+            res.send("Not found!")
+            console.log('Not found!');
+        } else {
+            const checkPassword = await bcrypt.compare(senha, user.senha)
+            console.log(checkPassword)
+            if (checkPassword && email == user.email) {
+
+                res.send("logado")
+
+            }
+        }
+
     },
     minhaConta: (req, res) => {
         res.render('minhaConta')

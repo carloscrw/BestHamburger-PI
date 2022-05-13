@@ -20,7 +20,10 @@ let validaCadastro = [
     })
 
 ]
-let validaLogin = []
+let validaLogin = [
+    body("email").notEmpty().withMessage('Preencha o e-mail').isEmail().withMessage("Precisa ser um e-mail válido"),
+
+]
 
 
 

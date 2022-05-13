@@ -37,8 +37,13 @@
                     <form action="/user/login" method="POST">
                         <div class="input-limit">
                             <div class=" login-input  ">
-                                <label class="input-texto" for=" Email ">Username ou E-mail</label>
-                                <input class="input-form" type="email " name="Email " id="email " required>
+                                <label class="input-texto" for=" email ">Username ou E-mail</label>
+                                <input class="input-form" type="email " name="email" id="email ">
+                                <!-- <% if(locals.errors && errors.email){%>
+                                    <span class="span-form">
+                                        <%=errors.email.msg %>
+                                    </span>
+                                    <%}%> -->
 
                             </div>
                             <div class="login-input ">
@@ -56,7 +61,7 @@
 
                             </div>
                             <div class="bnt-login bnt-envia">
-                                <button name="envia " id='envia ' type="submit ">OK</button> </a>
+                                <button type="submit ">OK</button> </a>
                             </div>
 
                     </form>
