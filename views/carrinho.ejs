@@ -41,81 +41,54 @@
 
         </div>
 
-        <section id="Container-Produtos">
+        <section id="container-Header-E-Produtos">
 
-            <div id="Estilo-Produtos">
+            <header>
+                <h1>Carrinho</h1>
+            </header>
 
-                <header>
-                    <h1>Carrinho</h1>
-                </header>
+            <div id="produtos">
+                
+                <ul id="lista-Produtos">
 
-                <div id="produtos">
-                    <ul>
-                        <li class="Item"> <a href=""> <img src="/img/carrossel-1.jpg" alt="Seu produto">
-                                <p>Burguer 1</p>
-                            </a> </li>
-                        <li class="Item"> <a href=""> <img src="/img/carrossel-2.jpg" alt="Seu produto">
-                                <p>Burguer 2</p>
-                            </a> </li>
-                        <li class="Item"> <a href=""> <img src="/img/carrossel-3.jpg" alt="Seu produto">
-                                <p>Burguer 3</p>
-                            </a> </li>
-                    </ul>
-                </div>
+                    <li class="Item"> <a href=""><img src="/img/carrossel-1.jpg" alt="Seu produto">
+                        <p>Burguer 1</p></a> 
+                    </li>
+                    <li class="Item"> <a href=""><img src="/img/carrossel-2.jpg" alt="Seu produto">
+                        <p>Burguer 2</p></a> 
+                    </li>
+                    <li class="Item"> <a href=""><img src="/img/carrossel-3.jpg" alt="Seu produto">
+                        <p>Burguer 3</p></a> 
+                    </li>
+
+                </ul>
 
             </div>
 
         </section>
 
-        <section id="Container-Subtotal-Cupom">
+        <section id="container-Subtotal-Cupom">
 
-            <div id="Container-Subtotal">
-                <div id="Subtotal">
-                    <h3>Seu Subtotal</h3>
-                    <p>Subtotal: R$</p>
-                    <div class="button-borders">
-                        <button class="primary-button">Confirmar Compra</button>
-                      </div>
-                    <!-- botão de Confirmar Compra -->
-                </div>
+            <div id="container-Subtotal">
+                <h3>Seu Subtotal</h3>
+                <p>R$ xx,xx</p>
+                <button type="button" id="botaoConfirmar">Confirmar Compra</button>
             </div>
 
-            <div id="Container-Cupom">
+            <div id="container-Cupom">
                 <div id="Cupons">
                     <h3>Código Promocional</h3>
-                    <!--label for="insira o codigo">Insira o código</label-->
-                    <input type="text" class="form-control" placeholder="Insira o cupom">
-                    <button class="primary-button">Aplicar</button>
-                    <!-- <form action="text"> </form> -->
-                    <!-- botão 'aplicar' -->
+                    <form action="" id="formDoCupom">
+                        <label for="cupom"></label>
+                        <input type="text" name="cupom" id="inputCupom" placeholder="Insira um Cupom" />
+                        <button id="botaoCupom" type="submit">Aplicar</button>
+                    </form>
                 </div>
             </div>
 
         </section>
 
     </section>
-
-    <footer>
-        <div class="caixa1-footer">
-            <div class="rodape-text">
-                <p>Copyrigth © 2021 Best Burger </p>
-            </div>
-        </div>
-        <div class="caixa2-footer">
-            <div class="rodape-redes">
-                <a href="">
-                    <img src="/img/icone-whats.png" alt="icone-whats">
-                </a>
-                <a href="">
-                    <img src="/img/icone-facebook.png" alt="icone-facebook">
-                </a>
-                <a href="">
-                    <img src="/img/icone-instagram.png" alt="icone-instagram">
-                </a>
-
-            </div>
-        </div>
-    </footer>
 
 </body>
 
