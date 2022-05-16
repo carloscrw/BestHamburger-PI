@@ -2,14 +2,148 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Acompanhe seu Pedido</title>
+    
+    <link rel="stylesheet" href="/public/css/acompanharPedido.css">
+    <link rel="stylesheet" href="/public/css/menuLateral.css">
+
+</head>
+
+<body>
+
+    <section id="container-Pai">
+
+        <!-- <%- include('./partials/menuLateral') %> -->
+
+        <div class="menu">
+            <div class="menu-lateral">
+                <div class="lateral">
+                    <div>
+                        <a href=""><img src="/public/img/logo.png" alt="Logo"></a>
+                    </div>
+                    <div class="icone-menu">
+                        <a href=""><img src="/public/img/perfil-left.png" alt="Perfil"></a>
+                    </div>
+                    <div class="icone-menu">
+                        <a href=""><img src="/public/img/cardapio-left.png" alt="cardapio"></a>
+                    </div>
+                    <div class="icone-menu">
+                        <a href=""><img src="/public/img/carrinho-left.png" alt="carrinho"></a>
+                    </div>
+                    <div class="icone-menu">
+                        <a href=""><img src="/public/img/acompanha-pedido-left.png" alt="pedido"></a>
+                    </div>
+                    <div class="icone-menu">
+                        <a href=""><img src="/public/img/sair-left.png" alt="sair"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="containerHeaderEMapa">
+
+            <header>
+                <h1>Acompanhe Seu Pedido:</h1>
+            </header>
+
+            <div id="containerMapa">
+                
+                <div id="divMapa">
+
+                    <img id="mapaIMG" src="./public/img/mapaDoBrasil.jpg" alt="localização do Pedido">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="containerContatos">
+
+            <div id="contatos">
+                <h3>Algum Problema?</h3>
+                <p>Entre em contato conosco:</p>
+                <div id="listaDeContatos">
+                        <a href="" id="itemDaLista"> WhatsApp
+                            <img id="iconeRedeSocial" src="./public/img/icone-whats.png" alt="icone-whats">
+                        </a>
+                        <a href=""> Facebook
+                            <img src="./public/img/icone-facebook.png" alt="icone-facebook">
+                        </a>
+                        <a href=""> Instagram
+                            <img src="./public/img/icone-instagram.png" alt="icone-instagram">
+                        </a>
+                </div>
+            </div>
+
+        </section>
+
+    </section>
+
+</body>
+
+</html>
+
+<!-- <head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Acompanhar Pedido</title>
-    <link rel="stylesheet" href="/public/css/acompanharPedido.css">
+
+    <link rel="stylesheet" href="/public/public/css/acompanharPedido.css">
+    <link rel="stylesheet" href="/public/public/css/menuLateral.css">
+
 </head>
 
 <body>
     
-</body>
+<section id="containerPai">
+    
+    <div class="menu">
+        <div class="menu-lateral">
+            <div class="lateral">
+                <div>
+                    <a href=""><img src="/public/public/img/logo.png" alt="Logo"></a>
+                </div>
+                <div class="icone-menu">
+                    <a href=""><img src="/public/public/img/perfil-left.png" alt="Perfil"></a>
+                </div>
+                <div class="icone-menu">
+                    <a href=""><img src="/public/public/img/cardapio-left.png" alt="cardapio"></a>
+                </div>
+                <div class="icone-menu">
+                    <a href=""><img src="/public/public/img/carrinho-left.png" alt="carrinho"></a>
+                </div>
+                <div class="icone-menu">
+                    <a href=""><img src="/public/public/img/acompanha-pedido-left.png" alt="pedido"></a>
+                </div>
+                <div class="icone-menu">
+                    <a href=""><img src="/public/public/img/sair-left.png" alt="sair"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-</html>
+    <section id="containerMapa">
+
+        <header><h1>Acompanhe Seu Pedido</h1></header>
+
+        <div id="mapaDoPedido">
+            <img id="mapa" src="./public/public/img/mapaDoBrasil.jpg" alt="localização do Pedido">
+        </div>
+
+    </section>
+
+    <section id="containerAreaDeContato">
+        <div id="textoAreaDeContato">
+            <h2>Algum Problema?</h2>
+            <h3>Entre em contato:</h3>
+        </div>
+    </section>
+   
+</section>
+
+</body> -->

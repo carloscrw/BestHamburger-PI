@@ -1,0 +1,131 @@
+/* #containerPai {
+    background-color: darkslategrey;
+    display: flex;
+    height: 98vh;
+}
+
+#containerMapa {
+    background-color: darksalmon;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: darkorange;
+    height: 15%;
+}
+
+header h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+    width: 45%;
+}
+
+#mapaDoPedido {
+    background-color: aquamarine;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mapa { 
+    width: 65%;
+}
+
+#containerAreaDeContato{
+    background-color: cornflowerblue;
+    margin-top: 15vh;
+} */
+
+#container-Pai { 
+    background-color: #FF4655;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#containerHeaderEMapa {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+
+/*  */
+
+header {
+    background-color: chartreuse;
+    height: 15vh
+}
+
+header h1 {
+    width: 60%;
+    font-size: 2.5rem;
+    border-bottom: solid 5px #FDBB10;
+}
+
+/*  */
+
+#containerMapa {
+    background-color: darkgreen;
+    height: 85vh;
+    display: flex;
+}
+
+#divMapa {
+    background-color:#FDBB10;
+    width: 100%;
+    margin: 5vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mapaIMG { 
+    width: 95%;
+}
+
+/*  */
+
+#containerContatos {
+    background-color: yellowgreen;
+    height: fit-content;
+    width: 20%;
+    margin-top: 15vh;
+    margin-right: 3vw;
+}
+
+#containerContatos h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+#contatos {
+    background-color: goldenrod;
+    height: fit-content;
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black
+}
+
+#contatos p {
+    font-size: 1.2rem;
+}
+
+#listaDeContatos {
+    background-color: cadetblue;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+}
+
+#itensDaLista {
+    background-color: chocolate;
+}
+
